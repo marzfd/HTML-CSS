@@ -1,0 +1,13 @@
+1. How do I create a hidden file or folder? How do I display it in the CLI?
+>>> To make a file/folder hidden, add a dot "." at the beginning of its name.
+>>> To display it in the CLI, enter "ls -a" command.
+
+
+2. How do I create multiple nested directories, like /c/Users/myusername/these/folders/are/just/for/fun?
+>>> Enter the code "mkdir -p /myusername/these/folders/are/just/for/fun" command in the CLI.
+
+
+3. How do I append a message to a file, without a newline character, so the output would be:
+first message
+second message
+>>> Enter "echo 'first message' >> CLI.txt 'second message' >> CLI.txt".
