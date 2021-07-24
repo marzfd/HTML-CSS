@@ -21,12 +21,12 @@ body{
 
 .left{
     background: rgb(70, 66, 70);
-    width: 350px;
+    width: 360px;
     padding: 0 20px;
 }
 
 .right{
-    width: calc(100% - 350px);
+    width: calc(100% - 360px);
 }
 
 .left .img{
