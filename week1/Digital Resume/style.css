@@ -129,7 +129,6 @@ ul .text{
     width: calc(100% - 50px);
     margin-top: 10px;
     margin-bottom: 5px;
-    margin-left: 10px;
     color: rgb(242, 245, 227);
     word-break: break-word;
 }
