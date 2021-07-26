@@ -121,6 +121,12 @@ body{
     align-items: center;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
 ul .text{
     list-style-type: circle;
 }    
