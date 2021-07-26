@@ -256,6 +256,7 @@ ul .text{
 .interests .text{
     color: rgb(242, 245, 227);
     margin-top: 10px;
+    margin-left: 10px;
 }
 
 .interests .text:hover{
