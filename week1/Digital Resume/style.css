@@ -40,12 +40,6 @@ body{
     border: 10px solid #F3F2C9;
 }
 
-.left .img:hover img{
-    width: 300px;
-    border-radius: 80px;
-    border: 10px solid #F3F2C9;
-}
-
 .pb{
     padding-bottom: 20px;
 }
