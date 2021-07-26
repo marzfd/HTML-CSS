@@ -121,6 +121,10 @@ body{
     align-items: center;
 }
 
+ul.text{
+    list-style-type: circle;
+}    
+
 .skills .text{
     width: calc(100% - 50px);
     margin-top: 10px;
@@ -173,7 +177,6 @@ body{
     color: rgb(102, 63, 245);
     font-weight: bolder;
 }
-
 
 .widget{
     position: relative;
