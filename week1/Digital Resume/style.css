@@ -121,7 +121,7 @@ body{
     align-items: center;
 }
 
-ul.text{
+ul .text{
     list-style-type: circle;
 }    
 
