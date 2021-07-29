@@ -121,7 +121,6 @@ body{
     border-radius: 10px;
 }
 
-
 a {
     text-decoration: none;
 }
@@ -192,7 +191,6 @@ a:hover{
     position: relative;
     top: 40%
 }
-
 
 .lan .widget:hover{
     background: #f3f2c990;
