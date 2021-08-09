@@ -452,7 +452,7 @@ ul .cont{
     top: 10px;
     left: 4px;
     width: 2px;
-    height: 90%;
+    height: 95%;
     background: #003638;
 }
 
@@ -490,4 +490,481 @@ ul .cont{
 
 .pub .cont a:hover{
     background-color: #F3F2C960;
+}
+
+
+/* Media Query */
+
+/* Tablet */
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+
+    .resume{
+        max-width: 1024px;
+        margin: 0;
+    }
+    
+    .left{
+        width: 30%;
+        padding: 0 10px;
+    }
+
+    .right{
+        max-width: 70%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .left .img{
+        padding: 10px 0;
+    }
+    
+    .left .img img{
+        width: 160px;
+        border: 8px solid #F3F2C9;
+        margin-top: 15px;
+    }
+
+    .title{
+        font-size: 15px;
+        padding-bottom: 10px;
+        padding-top: 5px;
+        margin-bottom: 10px;   
+    }
+        
+    .left .title:before{
+        top: 28px;
+        height: 3px;
+    }
+        
+    .left .text{
+        font-size: 13px;
+    }
+
+    
+    .contact .li_wrap .icon{
+        width: 25px;
+        height: 25px;
+        border-radius: 15px;
+        margin-right: 10px;
+    }
+    
+    .contact .li_wrap .text{
+        width: calc(100% - 25px);
+    }
+    
+    .interests ul .text{
+        margin-left: 20px;
+        line-height: 15px;
+    }
+    
+    .skills .text{
+        margin-top: 13px;
+        margin-bottom: 5px;
+    }
+    
+    .widget .text{
+        top: 30%
+    }
+    
+    .widget{
+        width: 65px;
+        height: 65px;
+        border: 3px solid rgb(242, 245, 227);
+    }
+
+    .extra .li_wrap{
+        width: 110px;
+        height: 60px;
+        margin-bottom: 5px;
+        border-radius: 10px;
+        border: 3px solid rgb(242, 245, 227);
+    }
+    
+    .extra .li_wrap .text{
+        margin-top: 3px;
+    }
+    
+    .extra_wrap .title:before{
+        top: 43px;
+    }
+
+    .ref .pos{
+        font-size: 13px;
+    }
+    
+    .ref .loc{
+        word-spacing: 1px;
+        font-size: 12px;
+        margin-bottom: 1px;
+        line-height: 1.5;
+    }
+    
+    .ref ul{
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
+
+
+    .header{
+        height: 210px;
+        margin: 0;
+        padding: 10px;
+    }
+    
+    .header .name{
+        font-size: 20px;
+    }
+    
+    .header .role{
+        font-size: 17px;
+    }
+    
+    .header .about{
+        line-height: 20px;
+        font-size: 13px;
+        margin: 10px 0 0 0;
+    }
+
+    .right_inner{
+        width: 100%;
+        padding: 10px;
+    }
+    
+    .right .title{
+        font-size: 17px;
+        margin-top: 10px;
+    }
+    
+    .right .title:before{
+        top: 30px;
+        height: 3px;
+    }
+    
+    ul .cont{
+        margin-left: 20px;
+        line-height: 20px;
+    }
+    
+    .exp ul li .cont{
+        margin-bottom: 0px;
+    }
+    
+    .edu ul li .cont,
+    .pub ul li .cont{
+        margin-bottom: 3px;
+    }
+    
+    .right_inner .li_wrap{
+        margin-bottom: 10px;
+        margin-right: 10px;
+    }
+    
+    .right_inner .li_wrap .date{
+        width: 65px;
+        font-size: 15px;
+        line-height: 20px;
+        margin-top: 20px;
+    }
+    
+    .right_inner .li_wrap .info{
+        width: calc(100% - 65px);
+        padding-left: 15px;
+    }
+    
+    .right_inner .li_wrap .info_title{
+        font-size: 17px;
+        line-height: 15px;
+        margin-top: 20px;
+    }
+    
+    .right_inner .li_wrap .info_com{
+        font-size: 16px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        line-height: 15px;
+    }
+    
+    .right_inner .li_wrap .info:before{
+        top: 20px;
+        left: 1px;
+        width: 8px;
+        height: 8px;
+    }
+    
+    .right_inner .li_wrap .info:after{
+        top: 25px;
+        left: 3px;
+        width: 2px;
+    }
+    
+    .info_cont_title{
+        font-weight: 600;
+        margin-top: 10px;
+        margin-left: 10px;
+        font-size: 14px;
+    }
+    
+    .info_cont{
+        margin-top: 5px;
+        margin-left: 0;
+        line-height: 12px;
+        font-size: 15px;
+    }
+    
+    .sub_cont{
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    
+    .pub .cont a:link,
+    .pub .cont a:visited{
+        border: 2px solid #53B8BB;
+        padding: 0 2px;
+        margin: 0;
+        font-size: 10px;
+        font-weight: 600;
+    }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+
+    .resume{
+        width: 480px;
+        margin: 0;
+    }
+    
+    .left{
+        width: 35%;
+        padding: 0 5px;
+    }
+
+    .right{
+        max-width: calc(100% - 160px);
+        padding: 0;
+    }
+    
+    .left .img{
+        text-align: center;
+        padding: 5px;
+    }
+    
+    .left .img img{
+        width: 120px;
+        border: 5px solid #F3F2C9;
+        margin-top: 15px;
+    }
+
+    .title{
+        font-size: 15px;
+        letter-spacing: 1px;
+        padding-bottom: 10px;
+        padding-top: 0;
+        margin-bottom: 10px;   
+    }
+    
+    .left .title:before{
+        top: 20px;
+        height: 2px;
+    }
+    
+    .left .text{
+        font-size: 10px;
+    }
+
+    .contact_wrap .title{
+        margin-top: 10px;
+    }
+    
+    .contact .li_wrap{
+        margin-bottom: 5px;
+    }
+    
+    .contact .li_wrap .icon{
+        width: 20px;
+        height: 20px;
+        border-radius: 5px;
+        margin-right: 5px;
+    }
+    
+    .contact .li_wrap .text{
+        width: calc(100% - 20px);
+    }
+    
+    .interests ul .text{
+        margin-left: 15px;
+        line-height: 10px;
+    }
+    
+    .skills .text{
+        margin-top: 10px;
+        margin-bottom: 3px;
+    }
+    
+    .widget .text{
+        top: 30%
+    }
+    
+    .widget{
+        width: 55px;
+        height: 55px;
+        border: 2px solid rgb(242, 245, 227);
+    }
+
+    .extra .li_wrap{
+        width: 90px;
+        height: 50px;
+        margin-bottom: 5px;
+        border-radius: 10px;
+        border: 2px solid rgb(242, 245, 227);
+    }
+    
+    .extra .li_wrap .text{
+        margin-top: 3px;
+    }
+    
+    .extra_wrap .title:before,
+    .r_interests_wrap .title:before {
+        top: 36px;
+    }
+
+    .ref .pos{
+        font-size: 11px;
+    }
+    
+    .ref .loc{
+        word-spacing: 1px;
+        font-size: 10px;
+        margin-bottom: 1px;
+        line-height: 1.5;
+    }
+    
+    .ref ul{
+        margin-top: 1px;
+        margin-bottom: 1px;
+    }
+
+
+    .header{
+        padding: 5px;
+        height: 170px;
+    }
+    
+    .header .name{
+        font-size: 17px;
+        margin-top: 10px;
+    }
+    
+    .header .role{
+        font-size: 15px;
+    }
+    
+    .header .about{
+        margin-top: 8px;
+        line-height: 14px;
+        font-size: 10px;
+        padding: 5px 0;
+    }
+
+    .right_inner{
+        width: 100%;
+        padding-left: 10px;
+    }
+    
+    .right .title{
+        font-size: 15px;
+        margin-top: 0;
+        line-height: 0;
+    }
+    
+    .right .title:before{
+        top: 10px;
+        height: 2px;
+    }
+    
+    .right_inner .exp,
+    .right_inner .pub {
+        margin-top: 0;
+    }
+
+    ul .cont{
+        margin-left: 5px;
+        line-height: 15px;
+    }
+    
+    .edu ul li .cont,
+    .pub ul li .cont{
+        margin-bottom: 3px;
+        margin-left: 0;
+    }
+    
+    .right_inner .li_wrap{
+        margin: 0 0 20px 0;
+        padding: 0;
+    }
+    
+    .right_inner .li_wrap .date{
+        width: 41px;
+        font-size: 10px;
+        line-height: 20px;
+    }
+    
+    .right_inner .li_wrap .info{
+        width: calc(100% - 40px);
+    }
+    
+    .right_inner .li_wrap .info_title{
+        letter-spacing: 0;
+        font-size: 11px;
+        line-height: 15px;
+    }
+    
+    .right_inner .li_wrap .info_com{
+        font-size: 10px;
+        margin-top: 2px;
+        margin-bottom: 10px;
+        line-height: 15px;
+        color: #000;
+    }
+    
+    .right_inner .li_wrap .info:before{
+        top: 1px;
+        left: 1px;
+        width: 6px;
+        height: 6px;
+    }
+    
+    .right_inner .li_wrap .info:after{
+        top: 5px;
+        left: 3px;
+        width: 1px;
+    }
+    
+    .info_cont_title{
+        font-weight: 600;
+        margin-top: 8px;
+        margin-left: 10px;
+        font-size: 10px;
+    }
+    
+    .info_cont{
+        margin-top: 5px;
+        margin-left: 1px;
+        line-height: 12px;
+        font-size: 9px;
+    }
+    
+    .sub_cont{
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    
+    .pub .cont a:link,
+    .pub .cont a:visited{
+        border: 1px solid #53B8BB;
+        padding: 0 2px;
+        margin: 0;
+        font-size: 8px;
+        font-weight: 600;
+    }
 }
