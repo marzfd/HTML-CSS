@@ -10,16 +10,16 @@
 body {
     font-family: 'Quicksand', sans-serif;
     background-color: #F5E8C7;
-    margin: auto;
 }
 
 main {
-    width: 1024px;
+    max-width: 1024px;
     margin: auto;
 }
 
 img {
     width: 100%;
+    max-width: 400px;
     margin: auto;
     display: block;
 }
@@ -28,6 +28,7 @@ h1,
 h2,
 h3 {
     text-align: center;
+    width: 100%;
 }
 
 h1 {
@@ -36,12 +37,11 @@ h1 {
 }
 
 h2 {
-    margin: 25px;
+    margin: 25px 0;
     font-size: 40px;
     word-spacing: 15px;
     letter-spacing: 5px;
     color: #6F4C5B;
-
 }
 
 p {
@@ -57,12 +57,14 @@ header {
     width: 90%;
     margin: 20px auto;
     color: white;
+    max-width: 1024px;
 }
 
 header:hover {
     transform: scale(1.1);
     transition-duration: 500ms;
 }
+
 li:hover {
     transform: scale(1.03);
 }
@@ -92,20 +94,47 @@ li:hover {
 
 
 /* Mobile */
-@media (max-width: 600px) {
+@media only screen and (max-width: 600px) {
 
-    .grid-floats .grid-item {
-        width: 95%;
+    h1 {
+        font-size: 48px;
+        letter-spacing: 25px;
     }
-    
-    .grid-flex {
-        width: 95%;
+
+    h2 {
+        font-size: 24px;
+        word-spacing: 5px;
+        margin: 15px 0;
+    }
+
+    p {
+        font-size: 15px;
+        padding: 5px;
+    }
+
+    .grid-floats li,
+    .grid-flex li {
+        width: 85%;
+    }
+
+    img {
+        max-width: 200px;
+    }
+
+    section ul .grid-item {
+        margin: 1% 8%;
+        padding: 1%;
+        height: 360px;
     }
 }
 
 
 /* Tablet */
 @media (min-width: 601px) and (max-width: 1024px) {
+
+    main {
+        width: 100%;
+    }
 
     .grid-floats .grid-item {
         width: 31.33%;
@@ -137,6 +166,11 @@ li:hover {
 
 /* Desktop */
 @media (min-width: 1025px) {
+    
+    main {
+        width: 100%;
+        margin: auto;
+    }
 
     .grid-floats .grid-item {
         width: 23%;
