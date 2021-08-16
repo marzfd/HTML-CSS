@@ -24,6 +24,16 @@
             background-position: center;
             min-height: 1000px;
         }
+        .section {
+            padding-top: 4vw;
+            padding-bottom: 4wv;
+        }
+        .tabs .indicator {
+            background-color: #1a237e;
+        }
+        .tabs .tab a:focus, .tabs .tab a:focus.active {
+        background-color: transparent;
+        }        
 
         @media screen and (max-width: 670px) {
             header {
@@ -31,10 +41,6 @@
             }
         }
 
-        .section {
-            padding-top: 4vw;
-            padding-bottom: 4wv;
-        }
     </style>
 </head>
 
@@ -105,6 +111,35 @@
     </div>
 
     <!-- services / tabs -->
+    <section class="container section" id="services">
+        <div class="row">
+            <div class="col s12 l4">
+                <h2 class="indigo-text text-darken-4">What I do...</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas architecto officiis id accusantium asperiores voluptate. Cumque id aliquam illo, officia non officiis. Impedit saepe minus quis ipsum atque, laborum repellendus?</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt numquam temporibus dignissimos laudantium cupiditate adipisci ducimus sint similique voluptates quaerat itaque culpa fugit sit veniam possimus placeat, officiis dolorum dicta.</p>
+            </div>
+            <div class="col s12 l6 offset-l2">
+                <ul class="tabs">
+                    <li class="tab col s6">
+                        <a href="#photography" class="indigo-text text-darken-4">Photography</a>
+                    </li>
+                    <li class="tab col s6">
+                        <a href="#editing" class="indigo-text text-darken-4">Editing</a>
+                    </li>
+                </ul>
+                <div class="col s12" id="photography">
+                    <p class="flow-text indigo-text text-darken-4">PHOTOGRAPHY</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo illum eveniet rerum provident fugit dignissimos eos eum ratione, ad cupiditate explicabo obcaecati similique. Qui dolorem ipsa eius quam, nam odio!</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ex error iure voluptate quo. Possimus cumque atque velit illo hic. Qui praesentium dignissimos sit debitis repellat dolorem, vitae odit placeat!</p>
+                </div>
+                <div class="col s12" id="editing">
+                    <p class="flow-text indigo-text text-darken-4">EDITING</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ex error iure voluptate quo. Possimus cumque atque velit illo hic. Qui praesentium dignissimos sit debitis repellat dolorem, vitae odit placeat!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo illum eveniet rerum provident fugit dignissimos eos eum ratione, ad cupiditate explicabo obcaecati similique. Qui dolorem ipsa eius quam, nam odio!</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- parallax -->
     <div class="parallax-container">
@@ -114,6 +149,7 @@
     </div>
 
     <!-- contact form -->
+
 
     <!-- footer -->
 
@@ -130,6 +166,7 @@
             $('.sidenav').sidenav();
             $('.materialboxed').materialbox();
             $('.parallax').parallax();
+            $('.tabs').tabs()
         });
     </script>
 </body>
