@@ -58,6 +58,21 @@
                     <li><a href="#services">Services</a></li>
                     <li><a href="#about">About Me</a></li>
                     <li><a href="#contact">Contact Me</a></li>
+                    <li>
+                        <a href="#" class="tooltipped btn-floating btn-small indigo darken-4" data-tooltip="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="tooltipped btn-floating btn-small indigo darken-4" data-tooltip="Facebook">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="tooltipped btn-floating btn-small indigo darken-4" data-tooltip="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
                 </ul>
                 <ul class="sidenav grey lighten-2" id="mobile-menu">
                     <li><a href="#photos">Photos</a></li>
@@ -208,10 +223,19 @@
                 <div class="col s12 l4 offset-l2">
                     <h5>Connect</h5>
                     <ul>
-                        <li><a href="#" class="grey-text text-lighten-3">Facebook</a></li>
-                        <li><a href="#" class="grey-text text-lighten-3">Twitter</a></li>
-                        <li><a href="#" class="grey-text text-lighten-3">LinkedIn</a></li>
-                        <li><a href="#" class="grey-text text-lighten-3">Instagram</a></li>
+                        <li>
+                            <i class="fab fa-facebook"></i>
+                            <a href="#" class="grey-text text-lighten-3">Facebook</a>
+                        </li>
+                        <li>
+                            <i class="fab fa-twitter"></i>
+                            <a href="#" class="grey-text text-lighten-3">Twitter</a></li>
+                        <li>
+                            <i class="fab fa-linkedin"></i>
+                            <a href="#" class="grey-text text-lighten-3">LinkedIn</a></li>
+                        <li>
+                            <i class="fab fa-instagram"></i>
+                            <a href="#" class="grey-text text-lighten-3">Instagram</a></li>
                     </ul>                    
                 </div>
             </div>
@@ -237,6 +261,7 @@
             $('.datepicker').datepicker({
                 disableWeekends: true
             });
+            $('.tooltipped').tooltip();
         });
     </script>
 </body>
