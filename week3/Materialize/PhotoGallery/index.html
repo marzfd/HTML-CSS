@@ -24,6 +24,7 @@
             background-position: center;
             min-height: 1000px;
         }
+
         @media screen and (max-width: 670px) {
             header {
                 min-height: 500px;
@@ -97,10 +98,20 @@
     </section>
 
     <!-- parallax -->
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="img/street.jpg" alt="">
+        </div>
+    </div>
 
     <!-- services / tabs -->
 
     <!-- parallax -->
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="img/stars.jpg" alt="">
+        </div>
+    </div>
 
     <!-- contact form -->
 
@@ -118,6 +129,7 @@
         $(document).ready(function(){
             $('.sidenav').sidenav();
             $('.materialboxed').materialbox();
+            $('.parallax').parallax();
         });
     </script>
 </body>
