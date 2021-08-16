@@ -85,7 +85,7 @@
     </header>
 
     <!-- photo / grid -->
-    <section class="container section" id="photos">
+    <section class="container section scrollspy" id="photos">
         <div class="row">
             <div class="col s12 l4">
                 <img src="img/portrait.jpg" alt="" class="responsive-img materialboxed">
@@ -126,7 +126,7 @@
     </div>
 
     <!-- services / tabs -->
-    <section class="container section" id="services">
+    <section class="container section scrollspy" id="services">
         <div class="row">
             <div class="col s12 l4">
                 <h2 class="indigo-text text-darken-4">What I do...</h2>
@@ -164,7 +164,7 @@
     </div>
 
     <!-- contact form -->
-    <section class="container" id="contact">
+    <section class="container scrollspy" id="contact">
         <div class="row">
             <div class="col s12 l5">
                 <h2 class="indigo-text text-darken-4">Get In Touch</h2>
@@ -215,7 +215,7 @@
     <footer class="page-footer grey darken-3">
         <div class="container">
             <div class="row">
-                <div class="col s12 l6" id="about">
+                <div class="col s12 l6 scrollspy" id="about">
                     <h5>About Me</h5>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint tenetur ducimus unde, exercitationem, nisi quos assumenda quasi dolore optio amet dolores, laborum ad labore recusandae voluptas asperiores maiores dolorum eaque!0</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facilis corrupti nisi sapiente, dolore pariatur, tempore mollitia laudantium dolorem distinctio facere consequatur voluptate aliquam modi labore possimus odit veritatis laboriosam.</p>
@@ -229,13 +229,16 @@
                         </li>
                         <li>
                             <i class="fab fa-twitter"></i>
-                            <a href="#" class="grey-text text-lighten-3">Twitter</a></li>
+                            <a href="#" class="grey-text text-lighten-3">Twitter</a>
+                        </li>
                         <li>
                             <i class="fab fa-linkedin"></i>
-                            <a href="#" class="grey-text text-lighten-3">LinkedIn</a></li>
+                            <a href="#" class="grey-text text-lighten-3">LinkedIn</a>
+                        </li>
                         <li>
                             <i class="fab fa-instagram"></i>
-                            <a href="#" class="grey-text text-lighten-3">Instagram</a></li>
+                            <a href="#" class="grey-text text-lighten-3">Instagram</a>
+                        </li>
                     </ul>                    
                 </div>
             </div>
@@ -262,6 +265,7 @@
                 disableWeekends: true
             });
             $('.tooltipped').tooltip();
+            $('.scrollspy').scrollSpy();
         });
     </script>
 </body>
