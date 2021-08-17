@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- Import FontAwesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+    
+    <title>Iran Travel</title>
+</head>
+<body>
+    <header>
+
+        <!-- Navigation Bar -->
+        <nav class="nav-wrapper teal">
+            <div class="container">
+                <a href="#" class="brand-logo">IranTravel</a>
+                <a href="#" class="sidenav-trigger" data-target="mobile-menu" >
+					<i class="material-icons">menu</i>
+				</a>
+
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#search">Search</a></li>
+                    <li><a href="#popular">Popular Places</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <ul class="sidenav" id="mobile-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#search">Search</a></li>
+                    <li><a href="#popular">Popular Places</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
+    
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const sidenavNew = document.querySelector('.sidenav');
+		    M.Sidenav.init(sidenavNew,{});
+  });
+    </script>
+    
+</body>
+</html>
