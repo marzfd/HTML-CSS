@@ -22,12 +22,11 @@
 </head>
 <body>
     <header>
-
         <!-- Navigation Bar -->
         <nav class="nav-wrapper teal">
             <div class="container">
                 <a href="#" class="brand-logo">IranTravel</a>
-                <a href="#" class="sidenav-trigger" data-target="mobile-menu" >
+                <a href="#" class="sidenav-trigger" data-target="mobile-nav" >
 					<i class="material-icons">menu</i>
 				</a>
 
@@ -47,9 +46,42 @@
                 </ul>
             </div>
         </nav>
-
+        <div class="slider">
+            <ul class="slides">
+                <li>
+                <img src="img/26.jpg">
+                <div class="caption right-align">
+                    <h3>Take Your Dream Vacation !</h3>
+                    <h5 class="light grey-text text-lighten-3">Kavir-e-Loot Desert</h5>
+                </div>
+                </li>
+                <li>
+                <img src="img/20.jpg">
+                <div class="caption center-align" style="top:73%">
+                    <h3>Fath-Abad Garden</h3>
+                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                </div>
+                </li>
+                <li>
+                <img src="img/04.jpg">
+                <div class="caption center-align" style="top:5%">
+                    <h3>Takht-e-Jamshid Palace</h3>
+                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                </div>
+                </li>
+                <li>
+                <img src="img/17.jpg">
+                <div class="caption left-align" style="top:60%">
+                    <h3>Si-o-se-pol Bridge</h3>
+                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                </div>
+                </li>
+            </ul>
+        </div>
+        
     </header>
     <main>
+
 
     </main>
     <footer>
@@ -62,6 +94,11 @@
         document.addEventListener('DOMContentLoaded', function() {
             const sidenavNew = document.querySelector('.sidenav');
 		    M.Sidenav.init(sidenavNew,{});
+            const sliderNew = document.querySelectorAll('.slider');
+            M.Slider.init(sliderNew, {
+                indicators: false,
+                height:500,
+            });
   });
     </script>
     
