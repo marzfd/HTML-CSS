@@ -20,57 +20,60 @@
     
     <title>Iran Travel</title>
 </head>
-<body>
+<body id="home" class="scrollspy">
     <header>
         <!-- Navigation Bar -->
-        <nav class="nav-wrapper teal">
-            <div class="container">
-                <a href="#" class="brand-logo">IranTravel</a>
-                <a href="#" class="sidenav-trigger" data-target="mobile-nav" >
-					<i class="material-icons">menu</i>
-				</a>
-
-                <ul class="right hide-on-med-and-down">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#search">Search</a></li>
-                    <li><a href="#popular">Popular Places</a></li>
-                    <li><a href="#gallery">Gallery</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-                <ul class="sidenav" id="mobile-menu">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#search">Search</a></li>
-                    <li><a href="#popular">Popular Places</a></li>
-                    <li><a href="#gallery">Gallery</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
+        <div class="navbar-fixed">
+            <nav class="teal">
+                <div class="container">
+                    <a href="#" class="brand-logo">IranTravel</a>
+                    <a href="#" class="sidenav-trigger" data-target="nav-mobile" >
+                        <i class="material-icons">menu</i>
+                    </a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#search">Search</a></li>
+                        <li><a href="#popular">Popular Places</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div>
+            <ul class="sidenav" id="nav-mobile">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#search">Search</a></li>
+                <li><a href="#popular">Popular Places</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
         <div class="slider">
             <ul class="slides">
                 <li>
-                <img src="img/26.jpg">
+                <img src="img/26.jpg" class="responsive-img">
                 <div class="caption right-align">
                     <h3>Take Your Dream Vacation !</h3>
                     <h5 class="light grey-text text-lighten-3">Kavir-e-Loot Desert</h5>
                 </div>
                 </li>
                 <li>
-                <img src="img/20.jpg">
+                <img src="img/20.jpg" class="responsive-img">
                 <div class="caption center-align" style="top:73%">
                     <h3>Fath-Abad Garden</h3>
                     <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
                 </div>
                 </li>
                 <li>
-                <img src="img/04.jpg">
+                <img src="img/04.jpg" class="responsive-img">
                 <div class="caption center-align" style="top:5%">
                     <h3>Takht-e-Jamshid Palace</h3>
                     <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
                 </div>
                 </li>
                 <li>
-                <img src="img/17.jpg">
+                <img src="img/17.jpg" class="responsive-img">
                 <div class="caption left-align" style="top:60%">
                     <h3>Si-o-se-pol Bridge</h3>
                     <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
@@ -129,22 +132,11 @@
         <section class="section scrollspy" id="popular">
             <div class="container">
                 <h4 class="center"><span class="teal-text">Popular</span> Places</h4>
-                <div class="row">
+                <div class="row">   
                     <div class="col s12 m4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="img/19.jpg" alt="Shiraz">
-                                <span class="card-title">Nasir al-Mulk Mosque, Shiraz</span>
-                            </div>
-                            <div class="card-content">
-                                <p>A bunch of text about Nasir al-Mulk Mosque</p>
-                            </div>
-                        </div>
-                    </div>    
-                    <div class="col s12 m4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="img/02.jpg" alt="Kerman">
+                                <img src="img/02.jpg" alt="Kerman" class="responsive-img">
                                 <span class="card-title">Shahzadeh Garden, Kerman</span>
                             </div>
                             <div class="card-content">
@@ -155,14 +147,25 @@
                     <div class="col s12 m4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="img/28.jpg" alt="Yazd">
+                                <img src="img/28.jpg" alt="Yazd" class="responsive-img">
                                 <span class="card-title">jameh Mosque, Yazd</span>
                             </div>
                             <div class="card-content">
                                 <p>A bunch of text about jameh Mosque</p>
                             </div>
                         </div>
-                    </div>    
+                    </div>
+                    <div class="col s12 m4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="img/19.jpg" alt="Shiraz" class="responsive-img">
+                                <span class="card-title">Nasir al-Mulk Mosque, Shiraz</span>
+                            </div>
+                            <div class="card-content">
+                                <p>A bunch of text about Nasir al-Mulk Mosque</p>
+                            </div>
+                        </div>
+                    </div>     
                 </div>
             </div>
         </section>
@@ -184,6 +187,55 @@
             </div>
         </section>
 
+        <!-- Photo Gallery -->
+        <section class="section center scrollspy" id="gallery">
+            <div class="container">
+                <h4><span class="teal-text">Photo</span> Gallery</h4>
+                <div class="row">
+                    <div class="col s12 m3">
+                        <img class="materialboxed responsive-img" width="650" src="img/07.jpg">
+                    </div>
+                    <div class="col s12 m3">
+                        <img class="materialboxed responsive-img" width="650" src="img/23.jpg">
+                    </div>
+                    <div class="col s12 m3">
+                        <img class="materialboxed responsive-img" width="650" src="img/27.jpg">
+                    </div>
+                    <div class="col s12 m3">
+                        <img class="materialboxed responsive-img" width="650" src="img/22.jpg">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s12 m3">
+                        <img class="materialboxed responsive-img" width="650" src="img/25.jpg">
+                    </div>
+                    <div class="col s12 m3">
+                        <img class="materialboxed responsive-img" width="650" src="img/21.jpg">
+                    </div>
+                    <div class="col s12 m3">
+                        <img class="materialboxed responsive-img" width="650" src="img/10.jpg">
+                    </div>
+                    <div class="col s12 m3">
+                        <img class="materialboxed responsive-img" width="650" src="img/15.jpg">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s12 m3">
+                        <img class="materialboxed responsive-img" width="650" src="img/14.jpg">
+                    </div>
+                    <div class="col s12 m3">
+                        <img class="materialboxed responsive-img" width="650" src="img/05.jpg">
+                    </div>
+                    <div class="col s12 m3">
+                        <img class="materialboxed responsive-img" width="650" src="img/06.jpg">
+                    </div>
+                    <div class="col s12 m3">
+                        <img class="materialboxed responsive-img" width="650" src="img/08.jpg">
+                    </div>
+                </div>
+            </div>
+        </section>
+
 
 
 
@@ -198,11 +250,10 @@
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            
-            const sidenavNew = document.querySelectorAll('.sidenav');
+        document.addEventListener('DOMContentLoaded', function(){
+            const sidenavNew = document.querySelector('.sidenav');
 		    M.Sidenav.init(sidenavNew,{});
-            
+
             const sliderNew = document.querySelectorAll('.slider');
             M.Slider.init(sliderNew, {
                 indicators: false,
@@ -210,7 +261,9 @@
             });
             
             const scrollspyNew = document.querySelectorAll('.scrollspy');
-            M.ScrollSpy.init(scrollspyNew);
+            M.ScrollSpy.init(scrollspyNew, {
+                throttle:50000,
+            });
             
             const NewAutocomplete = document.querySelectorAll('.autocomplete');
 		    M.Autocomplete.init(NewAutocomplete, {
@@ -223,6 +276,9 @@
 				"Yazd": null,			
 			    }
 		    });
+
+            const mb = document.querySelectorAll('.materialboxed');
+    		M.Materialbox.init(mb,{});
 
         });
     </script>
