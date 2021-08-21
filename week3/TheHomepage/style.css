@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-size: 18px;
 }
 
 @media (max-width:992px) { 
@@ -7,7 +8,7 @@
         height: 120px;
     }
 
-    .container {
+    .section1 .container {
         width: 100%;
     }
 
@@ -20,6 +21,9 @@
     }
 }
 
+.bold {
+    font-weight: 700;
+}
 
 nav {
     padding: 0 16px !important;
@@ -105,12 +109,19 @@ nav .btn:hover {
     font-size: 18px;
 }
 
-.section2 h3 {
-    font-weight: 700;
-}
 
 .section2 .btn {
     width:100%
 }
 
+.section3 {
+    margin: 0 100px;
+}
 
+.section3 .row {
+    margin: 0 !important;
+}
+
+.section3 .card-image {
+    margin: 0 !important;
+}
