@@ -8,7 +8,7 @@
     }
 
     .container {
-
+        width: 100%;
     }
 }
 
@@ -24,6 +24,10 @@ nav {
     padding: 0 16px !important;
     margin: 0 !important;
     border-bottom: 1px solid #e5e3dd !important;
+}
+
+nav i {
+    margin-left: 0 !important;
 }
 
 .logo {
@@ -43,13 +47,14 @@ nav .btn {
     height: 43px !important;
 }
 
-.section {
-    padding: 0 2rem;
+nav .btn:hover {
+    background-color: white !important;
+    border: 2px solid red;
+    color: red !important;
 }
 
-.gif{
-    display: flex;
-    margin-top: 30px !important;
+.section {
+    padding: 0 2rem;
 }
 
 .search {
@@ -59,7 +64,6 @@ nav .btn {
     height: 35px;
     display: flex;
 }
-
 .search .input {
     border-bottom: none !important;
     height: 1rem !important;
@@ -71,3 +75,25 @@ nav .btn {
     margin-top: 15px !important;
 }
 
+h5 {
+    line-height: 35px;
+}
+
+.card-image {
+    margin: 100px 0 !important;
+}
+
+.gif {
+    position: relative;
+}
+
+.play:hover {
+    transform: scale(1.05);
+    transition-duration: 300ms;
+}
+
+.btn-floating {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+}
