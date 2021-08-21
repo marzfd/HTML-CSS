@@ -10,6 +10,7 @@
     .container {
         width: 100%;
     }
+
 }
 
 
@@ -54,7 +55,7 @@ nav .btn:hover {
 }
 
 .section {
-    padding: 0 2rem;
+    padding: 3rem 2rem;
 }
 
 .search {
@@ -75,8 +76,10 @@ nav .btn:hover {
     margin-top: 15px !important;
 }
 
-h5 {
-    line-height: 35px;
+::placeholder {
+    color: #808080;
+    font-weight: 600;
+    font-size: 14px;
 }
 
 .card-image {
@@ -97,3 +100,17 @@ h5 {
     top: 40%;
     left: 45%;
 }
+
+.section2 ::placeholder {
+    font-size: 18px;
+}
+
+.section2 h3 {
+    font-weight: 700;
+}
+
+.section2 .btn {
+    width:100%
+}
+
+
