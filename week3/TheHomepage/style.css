@@ -173,3 +173,33 @@ nav .btn:hover {
     color: black;
     text-decoration: underline;
 }
+
+footer {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+footer h6 {
+    font-size: 12px !important;
+    letter-spacing: 1px;
+}
+
+footer .btn {
+    height: 50px;
+    width: 200px;
+    border-radius: 5px;
+    font-size: 17px !important;
+    line-height: 1.5;
+    border: 2px solid white;
+    margin-bottom: 3px !important;
+    margin-top: 5px !important;
+    padding: 5px !important;
+}
+
+footer .lan {
+    height: 70px;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
