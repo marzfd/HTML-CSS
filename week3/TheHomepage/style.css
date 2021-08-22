@@ -19,6 +19,11 @@
     .container {
         width: 100%;
     }
+
+    .section3 p.flow-text {
+        margin-right: 10% !important;
+        margin-left: 10% !important;
+    }
 }
 
 .bold {
@@ -69,6 +74,7 @@ nav .btn:hover {
     height: 35px;
     display: flex;
 }
+
 .search .input {
     border-bottom: none !important;
     height: 1rem !important;
@@ -105,6 +111,10 @@ nav .btn:hover {
     left: 45%;
 }
 
+.section2 .search {
+    height: 38px;
+}
+
 .section2 ::placeholder {
     font-size: 18px;
 }
@@ -115,13 +125,43 @@ nav .btn:hover {
 }
 
 .section3 {
-    margin: 0 100px;
+    margin: 0 0 !important;
 }
 
 .section3 .row {
-    margin: 0 !important;
+    margin-bottom: 30px !important;
 }
 
 .section3 .card-image {
     margin: 0 !important;
+    padding: 0 !important;
 }
+
+.section3 .card-content {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.section3 h4{
+    margin-top: 0 !important;
+}
+
+.font-large {
+    font-size: 27px;
+    line-height: 1.7;
+}
+
+/* .section4 .row .card {
+    display: inline-flex !important;
+    flex-flow: row wrap !important;
+
+
+} */
+
+.section4 .card-content ul li a:hover {
+    text-decoration: underline;
+    text-decoration-color: black;
+    color: black !important;
+}
+
+
