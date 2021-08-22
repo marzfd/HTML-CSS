@@ -27,7 +27,7 @@
 }
 
 .bold {
-    font-weight: 700;
+    font-weight: 700 !important; 
 }
 
 nav {
@@ -162,4 +162,14 @@ nav .btn:hover {
     text-decoration: underline;
     text-decoration-color: black;
     color: black !important;
+}
+
+
+.section6 p {
+    margin-top: 20px !important;
+}
+
+.section6 a {
+    color: black;
+    text-decoration: underline;
 }
