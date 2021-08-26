@@ -39,18 +39,18 @@
                     </a>
                     <ul class="hide-on-med-and-down">
                         <li>
-                            <a href="#" class="dropdown-trigger grey-text text-darken-4">Product
+                            <a href="#" class="dropdown-trigger grey-text text-darken-4" data-target="dropdown1">Product
                                 <i class="material-icons grey-text text-darken-4 right">expand_more</i>
                             </a>
                         </li>
                         <li>
-                            <a href="#" class="grey-text text-darken-4">For creators
+                            <a href="#" class="dropdown-trigger grey-text text-darken-4" data-target="dropdown2">For creators
                                 <i class="material-icons grey-text text-darken-4 right">expand_more</i>
                             </a>
                         </li>
                         <li><a href="#" class="grey-text text-darken-4">Pricing</a></li>
                         <li>
-                            <a href="#" class="grey-text text-darken-4">Resources
+                            <a href="#" class="dropdown-trigger grey-text text-darken-4" data-target="dropdown3">Resources
                                 <i class="material-icons grey-text text-darken-4 right">expand_more</i>
                             </a>
                         </li>
@@ -84,6 +84,36 @@
                 </div>
             </nav>
         </div>
+
+        <!-- Dropdown Structure -->
+        <ul id='dropdown1' class='dropdown-content'>
+          <li><a href="#!" class="black-text">Lite<p>Simple tools to set up recurring support from your fans</p></a></li>
+          <li><a href="#!" class="black-text">Pro<p>Simple tools to set up recurring support from your fans</p></a></li>
+          <li><a href="#!" class="black-text">Premium<p>Simple tools to set up recurring support from your fans</p></a></li>
+        </ul>
+
+        <ul id='dropdown2' class='dropdown-content'>
+          <li><a href="#" class="black-text"><i class="fas fa-microphone-alt blue-text text-darken-3"></i>Podcasters</a></li>
+          <li><a href="#" class="black-text"><i class="fas fa-video blue-text text-darken-3"></i>Video creators</a></li>
+          <li><a href="#" class="black-text"><i class="fas fa-music blue-text text-darken-3"></i>Musicians</a></li>
+          <li><a href="#" class="black-text"><i class="fas fa-paint-brush blue-text text-darken-3"></i>Visual Artists</a></li>
+          <li><a href="#" class="black-text"><i class="fas fa-comments blue-text text-darken-3"></i>Communities</a></li>
+          <li><a href="#" class="black-text"><i class="fas fa-book blue-text text-darken-3"></i>Writers & Journalists</a></li>
+          <li><a href="#" class="black-text"><i class="fas fa-gamepad blue-text text-darken-3"></i> Gaming Creators</a></li>
+          <li><a href="#" class="black-text"><i class="fas fa-heart blue-text text-darken-3"></i>Nonprofits</a></li>
+          <li><a href="#" class="black-text"><i class="fas fa-graduation-cap blue-text text-darken-3"></i>Tutorials and Education</a></li>
+          <li><a href="#" class="black-text"><i class="fas fa-map-marker-alt blue-text text-darken-3"></i>Local Businesses</a></li>
+          <li><a href="#" class="black-text">Creators-of-all-kinds </a></li>
+        </ul>
+
+        <ul id='dropdown3' class='dropdown-content'>
+          <li><a href="#" class="black-text">Blog</a></li>
+          <li><a href="#" class="black-text">Creator Community</a></li>
+          <li><a href="#" class="black-text">Events</a></li>
+          <li><a href="#" class="black-text">Patreon U</a></li>
+          <li><a href="#" class="black-text">App Directory</a></li>
+          <li><a href="#" class="black-text">Help Center & FAQ</a></li>
+        </ul>
 
         <!-- Header Section -->
         <section class="section section1 grey darken-4">
@@ -234,8 +264,8 @@
                         <div class="card z-depth-0">
                             <div class="card-content left-align font-large">
                                 <ul>
-                                    <li><a href="#one!" class="font-large bold grey-text text-lighten-1">Podcasters</a></li>
-                                    <li><a href="#two!" class="font-large bold grey-text text-lighten-1">Video Creators</a></li>
+                                    <li><a href="#" class="font-large bold grey-text text-lighten-1">Podcasters</a></li>
+                                    <li><a href="#" class="font-large bold grey-text text-lighten-1">Video Creators</a></li>
                                     <li><a href="#" class="font-large bold grey-text text-lighten-1">Musicians</a></li>
                                     <li><a href="#" class="font-large bold grey-text text-lighten-1">Visual Artists</a></li>
                                     <li><a href="#" class="font-large bold grey-text text-lighten-1">Communities</a></li>
@@ -419,6 +449,10 @@
        $(document).ready(function(){
            $('.sidenav').sidenav();
            $('.carousel.carousel-slider').carousel();
+           $('.dropdown-trigger').dropdown({
+             hover:true,
+             coverTrigger: false
+            });
        });
    </script>
     

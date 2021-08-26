@@ -60,6 +60,27 @@ nav .btn:hover {
   color: red !important;
 }
 
+#dropdown1 {
+  width: 250px !important;
+}
+
+#dropdown2 {
+  width: 230px !important;
+}
+
+#dropdown3 {
+  width: 200px !important;
+}
+
+#dropdown1 p {
+  font-size: 14px !important;
+}
+
+#dropdown2 a,
+#dropdown3 {
+  font-size: 14px !important;
+}
+
 .section {
   padding: 3rem 2rem;
 }
