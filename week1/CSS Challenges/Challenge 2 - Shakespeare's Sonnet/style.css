@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 5%;
+  background-color: burlywood;
+}
+
+#wrap {
+  margin: auto;
+  background-color: bisque;
+  border: 4px dotted black;
+  width: 55%;
+}
+
+h1 {
+  font-family: Impact, fantasy;
+  padding: 15px;
+  font-size: 30px;
+  text-align: center;
+  width: 50%;
+  margin: 0 25%;
+  font-style: italic;
+}
+
+.line {
+  border-bottom: 4px dotted black;
+}
+
+ul {
+  padding: 10px;
+  text-align: center;
+  list-style: none;
+  font-size: 18px;
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+  font-style: italic;
+}
+
+.copyright {
+  padding: 10px;
+}
+
+ul b {
+  font-size: x-large;
+}
+
+p {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p.about {
+  font-size: 17px;
+  padding: 25px 25px 0 25px;
+  text-align: justify;
+}
+
+a {
+  text-decoration: none;
+}
