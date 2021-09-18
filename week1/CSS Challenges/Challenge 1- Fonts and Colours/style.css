@@ -1,7 +1,13 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
-  font-size: 35px;
+  font-size: 25px;
   font-family: Noto Sans, sans-serif;
-  margin: 5%;
+  margin: 3%;
 }
 
 ul {
@@ -14,9 +20,14 @@ footer {
   font-size: small;
 }
 
+p {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
 p.copyright {
   font-style: italic;
-  font-size: 30px;
+  margin-bottom: 0;
 }
 
 a {
