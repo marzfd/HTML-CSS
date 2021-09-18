@@ -1,0 +1,28 @@
+body {
+  font-size: 35px;
+  font-family: Noto Sans, sans-serif;
+  margin: 5%;
+}
+
+ul {
+  margin: 0 25%;
+  text-align: center;
+  list-style-position: inside;
+}
+
+footer {
+  font-size: small;
+}
+
+p.copyright {
+  font-style: italic;
+  font-size: 30px;
+}
+
+a {
+  color: rgb(172, 9, 158);
+}
+
+a:hover {
+  color: yellow;
+}
