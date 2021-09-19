@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: cursive;
+  text-align: center;
+  font-size: 30px;
+  background-image: url(passion.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+#wrap {
+  padding-top: 2%;
+}
+
+.thepost {
+  margin-top: 1%;
+  text-align: justify;
+  padding: 1% 15%;
+}
+
+.thepost h2 {
+  font-size: smaller;
+  padding-bottom: 5%;
+  color: #d9ec7a;
+}
+
+.thepost p {
+  padding-bottom: 3%;
+}
+
+.posttitle {
+  margin-bottom: 2%;
+}
+
+.dateheader {
+  font-size: 15px;
+}
+
+.postfooter {
+  font-size: 20px;
+  padding: 0 !important;
+  text-indent: 50px;
+}
+
+span {
+  padding-left: 25px;
+  font-size: 20px;
+  padding-bottom: 3%;
+}
+
+.post {
+  background-color: #d9ec7a40;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+b {
+  font-size: 45px;
+}
