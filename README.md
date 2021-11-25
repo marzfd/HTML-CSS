@@ -11,4 +11,4 @@
 
 <br/>
 
-This repository contains all homework assignments for the HTML/CSS Module.
+This repository contains all homework assignments for the [HTML/CSS Module](https://github.com/HackYourFuture/HTML-CSS).
