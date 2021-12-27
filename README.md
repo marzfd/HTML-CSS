@@ -23,7 +23,7 @@ This repository contains all homework assignments for the [HTML/CSS Module](http
 * [The Drones Website](https://marzfd.github.io/HTML-CSS/week2/DronesWebsite/) (Grid with floats and flexbox)
 * [Digital Resume](https://marzfd.github.io/Digital-Resume/index.html)
 * [A Simple WebPage](https://marzfd.github.io/HTML-CSS/week1/SimpleWebPage/index.html) (Code-along: The Tehran Times !)
-* [CSS Challenges](https://en.wikiversity.org/wiki/Web_Design/CSS_challenges)
+* [CSS Challenges](https://en.wikiversity.org/wiki/Web_Design/CSS_challenges) [[Codes](https://github.com/marzfd/HTML-CSS/tree/main/week1/CSS%20Challenges)]
   - [Challenge #1](https://marzfd.github.io/HTML-CSS/week1/CSS%20Challenges/Challenge%201%20-%20Fonts%20and%20Colours/index.html)
   - [Challenge #2](https://marzfd.github.io/HTML-CSS/week1/CSS%20Challenges/Challenge%202%20-%20Shakespeare's%20Sonnet/index.html)
   - [Challenge #3](https://marzfd.github.io/HTML-CSS/week1/CSS%20Challenges/Challenge%203%20-%202-column%20layout/index.html)
