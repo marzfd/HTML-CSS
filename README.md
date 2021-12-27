@@ -16,7 +16,10 @@ This repository contains all homework assignments for the [HTML/CSS Module](http
 </br>
 
 ## Homework Projects
-* [Responsive Website](http://marzfd.github.io/HTML-CSS/week3/TheHomepage) (Patreon Homepage)
+* [Responsive Website](http://marzfd.github.io/HTML-CSS/week3/TheHomepage) (Patreon Homepage using Materialize)
+* [Travel Agency](https://marzfd.github.io/HTML-CSS/week3/Materialize/TravelAgency/index.html) (Materialize practice)
+* [Knitting Shop](https://marzfd.github.io/HTML-CSS/week3/Bootstrap/index.html) (Bootstrap practice)
+* [Photo Gallery](https://marzfd.github.io/HTML-CSS/week3/Materialize/PhotoGallery/index.html) (Code-along: Materialize)
 * [The Drones Website](https://marzfd.github.io/HTML-CSS/week2/DronesWebsite/) (Grid with floats and flexbox)
 * [Digital Resume](https://marzfd.github.io/Digital-Resume/index.html)
 * [A Simple WebPage](https://marzfd.github.io/HTML-CSS/week1/SimpleWebPage/index.html) (Code-along: The Tehran Times !)
